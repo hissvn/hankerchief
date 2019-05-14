@@ -1,0 +1,14 @@
+{
+    "name": "hankerchief",
+    "url": "https://github.com/NQNStudios/hankerchief",
+    "license": "MIT",
+    "tags": ["cross", "game", "interactive-fiction", "ink"],
+    "description": "Because making visual novels should be as easy and natural as blowing your nose.",
+    "version": "0.0.0",
+    "releasenote": "It isn't safe to use this library yet.",
+    "contributors": ["NQNStudios"],
+    "dependencies": {
+        "hank": ""
+    },
+    "classPath": ""
+}
