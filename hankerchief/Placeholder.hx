@@ -6,6 +6,11 @@ import haxe.io.Bytes;
 import flash.display.BitmapData;
 import flixel.FlxSprite;
 
+
+/*
+var unsplash = new Unsplash(sys.environment()['UNSPLASH_KEY']);
+unsplash.sprite('goat', 0, 0, 100, 100);
+*/
 class Unsplash {
     var rootUrl = 'https://api.unsplash.com/';
     var apiKey;
