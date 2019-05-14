@@ -1,2 +1,2 @@
 # hankerchief
-HaxeFlixel-based narrative game engine that's nothing to blow your nose at.
+Because making visual novels should be as easy and natural as blowing your nose.
