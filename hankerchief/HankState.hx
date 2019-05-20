@@ -10,6 +10,13 @@ class HankState extends FlxState
     var story: Story;
     var awaitingChoice: Bool;
 
+    var textArea: FlxScrollableArea;
+
+    public function addText(text: String) {
+
+    }
+
+
 	override public function create():Void
 	{
 		super.create();
@@ -18,6 +25,8 @@ class HankState extends FlxState
 
         story = Story.FromFile("story/main.hank", files);
         awaitingChoice = false;
+
+        scrollableArea = new FlxScrollableArea();
 	}
 
 	override public function update(elapsed:Float):Void
